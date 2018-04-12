@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms;
 
 namespace NRGScoutingApp
@@ -10,6 +10,10 @@ namespace NRGScoutingApp
         public WelcomePage()
         {
             InitializeComponent();
+         //   On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
+            On<Xamarin.Forms.PlatformConfiguration.iOS>().SetLargeTitleDisplay(LargeTitleDisplayMode.Automatic);
+
+
         }
     }
 }

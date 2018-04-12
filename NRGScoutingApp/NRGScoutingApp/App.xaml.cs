@@ -12,16 +12,17 @@ namespace NRGScoutingApp
         public App()
         {
             InitializeComponent();
+            MainPage = new WelcomePage();
 
             if (UseMockDataStore)
                 DependencyService.Register<MockDataStore>();
             else
                 DependencyService.Register<CloudDataStore>();
 
-            if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new MainPage();
-            else
-                MainPage = new NavigationPage(new MainPage());
+            //if (Device.RuntimePlatform == Device.iOS)
+          //      MainPage = new MainPage();
+           // else
+             //   MainPage = new NavigationPage(new MainPage()); 
         }
     }
 }

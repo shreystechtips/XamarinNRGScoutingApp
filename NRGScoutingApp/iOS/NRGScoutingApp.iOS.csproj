@@ -108,6 +108,19 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\4040.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\8080.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\7676.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\10241024.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\2020.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\2929.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\5858.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\6060.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\8787.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tab_about.png" />
